@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/jprivet-dev/bootstrap-themes/issues"
   },
-  "homepage": "https://github.com/jprivet-dev/bootstrap-themes#readme"
+  "homepage": "https://github.com/jprivet-dev/bootstrap-themes#readme",
+  "devDependencies": {
+    "@symfony/webpack-encore": "^1.2.0"
+  }
 }
