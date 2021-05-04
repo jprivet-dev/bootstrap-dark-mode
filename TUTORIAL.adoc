@@ -1,0 +1,22 @@
+= How to create a local project with Webpack Encore
+
+```
+$ npm init
+```
+
+Follow :
+
+* https://symfony.com/doc/current/frontend/encore/installation.html
+* https://symfony.com/doc/current/frontend/encore/simple-example.html
+
+```
+$ npm install @symfony/webpack-encore --save-dev
+```
+
+* Create webpack.config.js
+* Create assets/app.js
+* Create assets/styles/app.css
+
+```
+$ npm run watch
+```
