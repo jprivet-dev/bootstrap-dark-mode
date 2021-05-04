@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-themes",
+  "version": "1.0.0-beta.0",
+  "description": "How to customize Bootstrap and create your own theme",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jprivet-dev/bootstrap-themes.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "themes",
+    "scss"
+  ],
+  "author": "jprivet-dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jprivet-dev/bootstrap-themes/issues"
+  },
+  "homepage": "https://github.com/jprivet-dev/bootstrap-themes#readme"
+}
