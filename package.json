@@ -4,6 +4,10 @@
   "description": "How to customize Bootstrap and create your own theme",
   "main": "index.html",
   "scripts": {
+    "dev-server": "encore dev-server",
+    "dev": "encore dev",
+    "watch": "encore dev --watch",
+    "build": "encore production --progress",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +26,7 @@
   },
   "homepage": "https://github.com/jprivet-dev/bootstrap-themes#readme",
   "devDependencies": {
-    "@symfony/webpack-encore": "^1.2.0"
+    "@symfony/webpack-encore": "^1.2.0",
+    "webpack-notifier": "^1.13.0"
   }
 }
