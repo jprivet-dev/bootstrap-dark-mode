@@ -27,6 +27,7 @@
   "homepage": "https://github.com/jprivet-dev/bootstrap-themes#readme",
   "devDependencies": {
     "@symfony/webpack-encore": "^1.2.0",
+    "file-loader": "^6.2.0",
     "webpack-notifier": "^1.13.0"
   }
 }
