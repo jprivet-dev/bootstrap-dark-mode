@@ -29,5 +29,8 @@
     "@symfony/webpack-encore": "^1.2.0",
     "file-loader": "^6.2.0",
     "webpack-notifier": "^1.13.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0"
   }
 }
