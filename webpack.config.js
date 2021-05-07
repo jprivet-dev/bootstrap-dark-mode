@@ -71,8 +71,7 @@ Encore
     //.addEntry('admin', './assets/admin.js')
 
     .copyFiles({
-        from: './src',
-        pattern: /\.html$/,
+        from: './src'
     })
 ;
 
