@@ -1,62 +1,80 @@
-$cadet-blue-crayola: #9BA6BC;
-$congo-pink: #F28B82;
+// Custom color
+
 $dodger-blue: #399BFE;
 $french-sky-blue: #8AB4F8;
-$magnolia: #EBEBF5;
-$mauve: #D7AEFB;
-$onyx: #33363F;
-$orange-yellow-crayola: #FDD663;
-$persian-pink: #FF8BCB;
-$raisin-black-light: #282A32;
-$raisin-black: #1D2027;
-$shiny-shamrock: #62AF8C;
 $sky-blue-crayola: #78D9EC;
+$shiny-shamrock: #62AF8C;
+$orange-yellow-crayola: #FDD663;
+$congo-pink: #F28B82;
+$persian-pink: #FF8BCB;
+$mauve: #D7AEFB;
+$magnolia: #EBEBF5;
+$cadet-blue-crayola: #9BA6BC;
 $slate-gray: #EBEBEB94;
 $sonic-silver: #737680;
+$onyx: #33363F;
+$raisin-black-light: #282A32;
+$raisin-black: #1D2027;
+
+// Color system
+
+$white: $raisin-black;
+$gray-100: $raisin-black-light;
+$gray-200: $onyx;
+$gray-300: #495057;
+$gray-400: $sonic-silver;
+$gray-500: $slate-gray;
+$gray-600: $cadet-blue-crayola;
+$gray-700: #dee2e6;
+$gray-800: #e9ecef;
+$gray-900: $magnolia;
+$black: $magnolia;
 
 $colors: (
-        "congo-pink": $congo-pink,
-        "dodger-blue": $dodger-blue,
-        "french-sky-blue": $french-sky-blue,
-        "magnolia": $magnolia,
-        "mauve": $mauve,
-        "onyx": $onyx,
-        "orange-yellow-crayola": $orange-yellow-crayola,
-        "persian-pink": $persian-pink,
-        "raisin-black-light": $raisin-black-light,
-        "raisin-black": $raisin-black,
-        "shiny-shamrock": $shiny-shamrock,
-        "slate-gray": $slate-gray,
-        "sonic-silver-dark": $sonic-silver,
+        "gray-100": $gray-100,
 );
 
-//$primary: $french-sky-blue;
-//$secondary: red;
+$blue: $dodger-blue;
+//$indigo: #6610f2;
+//$purple: #6f42c1;
+//$pink: $persian-pink;
+//$red: $congo-pink;
+//$orange: #fd7e14;
+//$yellow: $orange-yellow-crayola;
+//$green: #09A399;
+//$teal: #20c997;
+//$cyan: $french-sky-blue;
+
+//$primary: $dodger-blue;
 //$success: $shiny-shamrock;
 //$info: $dodger-blue;
 //$warning: $orange-yellow-crayola;
 //$danger: $congo-pink;
-$light: $magnolia;
-$dark: $onyx;
+//$light: $onyx;
+//$dark: $magnolia;
 
 // Body
 //
 // Settings for the `<body>` element.
 
-$body-bg: $raisin-black;
-$body-color: $light;
+//$body-bg: $white;
+//$body-color: $gray-200;
 
 // Components
 //
 // Define common padding and border radius sizes and more.
 
-$border-color: $dark;
+//$border-color: $dark;
 
 // Cards
 
-$card-bg: $dark;
+$card-bg: $gray-100;
 
 // Jumbotron
 
-$jumbotron-bg: $raisin-black-light;
+$jumbotron-bg: $gray-100;
 
+// Forms
+
+$input-bg: $gray-100;
+//$input-disabled-bg: $sonic-silver;

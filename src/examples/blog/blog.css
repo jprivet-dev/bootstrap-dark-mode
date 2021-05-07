@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 2.5rem 0;
   color: #999;
   text-align: center;
-  background-color: var(--raisin-black-light);
+  background-color: var(--gray-100);
 }
 .blog-footer p:last-child {
   margin-bottom: 0;

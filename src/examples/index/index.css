@@ -1,0 +1,20 @@
+header {
+    background-color: var(--gray-100);
+}
+
+.bd-title {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    font-size: 3rem;
+}
+
+@media (min-width: 992px) {
+    .bd-lead {
+        max-width: 80%;
+    }
+}
+
+.bd-lead {
+    font-size: 1.5rem;
+    font-weight: 300;
+}

@@ -1,0 +1,25 @@
+.bd-example {
+    position: relative;
+    padding: 1rem;
+    margin: 1rem -15px 0;
+}
+
+@media (min-width: 576px) {
+    .bd-example {
+        padding: 1.5rem;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+.bd-example > .list-group {
+    max-width: 400px;
+}
+
+.bd-example > .nav + .nav,
+.bd-example > .alert + .alert,
+.bd-example > .navbar + .navbar,
+.bd-example > .progress + .progress,
+.bd-example > .progress + .btn {
+    margin-top: 1rem;
+}
