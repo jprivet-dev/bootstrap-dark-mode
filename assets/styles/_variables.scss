@@ -18,36 +18,26 @@ $raisin-black:          #1D2027;
 
 // Color system
 
-$white:     $raisin-black;
-$gray-100:  #3C3E46; // 900
-$gray-200:  #4F5159; // 800
-$gray-300:  #63646D; // 700
-$gray-400:  #767880; // 600
-$gray-500:  #8A8B94; // 500
-$gray-600:  #9D9EA7; // 400
-$gray-700:  #B1B2BB; // 300
-$gray-800:  #B2BCD1; // 200
-$gray-900:  #C4CDE3; // 100
-$black:     $magnolia;
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
 
-//$blue: #6FA8DC;
-//$indigo: #6610f2;
-//$purple: #6f42c1;
-//$pink: $persian-pink;
-//$red: #E67C73;
-//$orange: #fd7e14;
-//$yellow: #FFD366;
-//$green: #57BB8A;
-//$teal: #20c997;
-//$cyan: $french-sky-blue;
-
-//$primary: $dodger-blue;
-//$success: $shiny-shamrock;
-//$info: $dodger-blue;
-//$warning: $orange-yellow-crayola;
-//$danger: $congo-pink;
-//$light: $onyx;
-//$dark: $magnolia;
+//$primary:       $blue;
+//$secondary:     $gray-600;
+//$success:       $green;
+//$info:          $cyan;
+//$warning:       $yellow;
+//$danger:        $red;
+//$light:         $gray-100;
+//$dark:          $gray-800;
 
 // Body
 
