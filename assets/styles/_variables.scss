@@ -1,47 +1,43 @@
 // Custom color
 
-$dodger-blue: #399BFE;
-$french-sky-blue: #8AB4F8;
-$sky-blue-crayola: #78D9EC;
-$shiny-shamrock: #62AF8C;
+$dodger-blue:           #399BFE;
+$french-sky-blue:       #8AB4F8;
+$sky-blue-crayola:      #78D9EC;
+$shiny-shamrock:        #62AF8C;
 $orange-yellow-crayola: #FDD663;
-$congo-pink: #F28B82;
-$persian-pink: #FF8BCB;
-$mauve: #D7AEFB;
-$magnolia: #EBEBF5;
-$cadet-blue-crayola: #9BA6BC;
-$slate-gray: #EBEBEB94;
-$sonic-silver: #737680;
-$onyx: #33363F;
-$raisin-black-light: #282A32;
-$raisin-black: #1D2027;
+$congo-pink:            #F28B82;
+$persian-pink:          #FF8BCB;
+$mauve:                 #D7AEFB;
+$magnolia:              #EBEBF5;
+$cadet-blue-crayola:    #9BA6BC;
+$slate-gray:            #EBEBEB94;
+$sonic-silver:          #737680;
+$onyx:                  #33363F;
+$raisin-black-light:    #282A32;
+$raisin-black:          #1D2027;
 
 // Color system
 
-$white: $raisin-black;
-$gray-100: $raisin-black-light;
-$gray-200: $onyx;
-$gray-300: #495057;
-$gray-400: $sonic-silver;
-$gray-500: $slate-gray;
-$gray-600: $cadet-blue-crayola;
-$gray-700: #dee2e6;
-$gray-800: #e9ecef;
-$gray-900: $magnolia;
-$black: $magnolia;
+$white:     $raisin-black;
+$gray-100:  #3C3E46; // 900
+$gray-200:  #4F5159; // 800
+$gray-300:  #63646D; // 700
+$gray-400:  #767880; // 600
+$gray-500:  #8A8B94; // 500
+$gray-600:  #9D9EA7; // 400
+$gray-700:  #B1B2BB; // 300
+$gray-800:  #B2BCD1; // 200
+$gray-900:  #C4CDE3; // 100
+$black:     $magnolia;
 
-$colors: (
-        "gray-100": $gray-100,
-);
-
-$blue: $dodger-blue;
+//$blue: #6FA8DC;
 //$indigo: #6610f2;
 //$purple: #6f42c1;
 //$pink: $persian-pink;
-//$red: $congo-pink;
+//$red: #E67C73;
 //$orange: #fd7e14;
-//$yellow: $orange-yellow-crayola;
-//$green: #09A399;
+//$yellow: #FFD366;
+//$green: #57BB8A;
 //$teal: #20c997;
 //$cyan: $french-sky-blue;
 
@@ -54,27 +50,190 @@ $blue: $dodger-blue;
 //$dark: $magnolia;
 
 // Body
-//
-// Settings for the `<body>` element.
 
-//$body-bg: $white;
-//$body-color: $gray-200;
+$body-bg:                   $white;
+$body-color:                $gray-900;
 
 // Components
-//
-// Define common padding and border radius sizes and more.
 
-//$border-color: $dark;
+$border-color:                $gray-300;
 
-// Cards
+$box-shadow-sm:               0 .125rem .25rem rgba($black, .075);
+$box-shadow:                  0 .5rem 1rem rgba($black, .15);
+$box-shadow-lg:               0 1rem 3rem rgba($black, .175);
 
-$card-bg: $gray-100;
+$component-active-color:      $white;
 
-// Jumbotron
+// Typography
 
-$jumbotron-bg: $gray-100;
+// stylelint-enable value-keyword-case
+
+$text-muted:                  $gray-600;
+$blockquote-small-color:      $gray-600;
+$hr-border-color:             rgba($black, .1);
+$kbd-box-shadow:              inset 0 -.1rem 0 rgba($black, .25);
+
+// Tables
+
+$table-accent-bg:             rgba($black, .05);
+$table-hover-bg:              rgba($black, .075);
+$table-head-bg:               $gray-200;
+$table-head-color:            $gray-700;
+$table-dark-color:            $white;
+$table-dark-bg:               $gray-800;
+$table-dark-accent-bg:        rgba($white, .05);
+$table-dark-hover-bg:         rgba($white, .075);
+
+// Buttons
+
+$btn-box-shadow:              inset 0 1px 0 rgba($white, .15), 0 1px 1px rgba($black, .075);
+$btn-active-box-shadow:       inset 0 3px 5px rgba($black, .125);
+$btn-link-disabled-color:     $gray-600;
 
 // Forms
 
-$input-bg: $gray-100;
-//$input-disabled-bg: $sonic-silver;
+$input-bg:                              $white;
+$input-disabled-bg:                     $gray-200;
+$input-color:                           $gray-700;
+$input-border-color:                    $gray-400;
+$input-box-shadow:                      inset 0 1px 1px rgba($black, .075);
+$input-placeholder-color:               $gray-600;
+$input-group-addon-bg:                  $gray-200;
+$custom-control-indicator-border-color: $gray-500;
+$custom-control-label-disabled-color:           $gray-600;
+$custom-select-disabled-color:      $gray-600;
+$custom-select-disabled-bg:         $gray-200;
+$custom-select-indicator-color:     $gray-800;
+$custom-select-box-shadow:          inset 0 1px 2px rgba($black, .075);
+$custom-range-track-bg:             $gray-300;
+$custom-range-track-box-shadow:     inset 0 .25rem .25rem rgba($black, .1);
+$custom-range-thumb-box-shadow:              0 .1rem .25rem rgba($black, .1);
+$custom-range-thumb-disabled-bg:             $gray-500;
+
+// Navs
+
+$nav-link-disabled-color:           $gray-600;
+$nav-tabs-border-color:             $gray-300;
+$nav-tabs-link-hover-border-color:  $gray-200 $gray-200 $nav-tabs-border-color;
+$nav-tabs-link-active-color:        $gray-700;
+$nav-tabs-link-active-bg:           $body-bg;
+$nav-tabs-link-active-border-color: $gray-300 $gray-300 $nav-tabs-link-active-bg;
+$nav-divider-color:                 $gray-200;
+
+// Navbar
+
+$navbar-dark-color:                 rgba($white, .5);
+$navbar-dark-hover-color:           rgba($white, .75);
+$navbar-dark-active-color:          $white;
+$navbar-dark-disabled-color:        rgba($white, .25);
+$navbar-dark-toggler-border-color:  rgba($white, .1);
+
+$navbar-light-color:                rgba($black, .5);
+$navbar-light-hover-color:          rgba($black, .7);
+$navbar-light-active-color:         rgba($black, .9);
+$navbar-light-disabled-color:       rgba($black, .3);
+$navbar-light-toggler-border-color: rgba($black, .1);
+
+// Dropdowns
+
+$dropdown-bg:                       $white;
+$dropdown-border-color:             rgba($black, .15);
+$dropdown-divider-bg:               $gray-200;
+$dropdown-box-shadow:               0 .5rem 1rem rgba($black, .175);
+$dropdown-link-color:               $gray-900;
+$dropdown-link-hover-color:         darken($gray-900, 5%);
+$dropdown-link-hover-bg:            $gray-200;
+$dropdown-link-disabled-color:      $gray-500;
+$dropdown-header-color:             $gray-600;
+
+// Pagination
+
+$pagination-bg:                     $white;
+$pagination-border-color:           $gray-300;
+$pagination-hover-bg:               $gray-200;
+$pagination-hover-border-color:     $gray-300;
+$pagination-disabled-color:         $gray-600;
+$pagination-disabled-bg:            $white;
+$pagination-disabled-border-color:  $gray-300;
+
+// Jumbotron
+
+$jumbotron-bg:                      $gray-200;
+
+// Cards
+
+$card-border-color:                 rgba($black, .125);
+$card-bg:                           $white;
+
+// Tooltips
+
+$tooltip-color:                     $white;
+$tooltip-bg:                        $black;
+
+// Popovers
+
+$popover-bg:                        $white;
+$popover-border-color:              rgba($black, .2);
+$popover-box-shadow:                0 .25rem .5rem rgba($black, .2);
+
+// Toasts
+
+$toast-background-color:            rgba($white, .85);
+$toast-box-shadow:                  0 .25rem .75rem rgba($black, .1);
+$toast-header-color:                $gray-600;
+$toast-header-background-color:     rgba($white, .85);
+
+// Modals
+
+$modal-content-bg:                  $white;
+$modal-content-border-color:        rgba($black, .2);
+$modal-content-box-shadow-xs:       0 .25rem .5rem rgba($black, .5);
+$modal-content-box-shadow-sm-up:    0 .5rem 1rem rgba($black, .5);
+$modal-backdrop-bg:                 $black;
+
+// Progress bars
+
+$progress-bg:                       $gray-200;
+$progress-box-shadow:               inset 0 .1rem .1rem rgba($black, .1);
+$progress-bar-color:                $white;
+
+// List group
+
+$list-group-bg:                     $white;
+$list-group-border-color:           rgba($black, .125);
+$list-group-hover-bg:               $gray-100;
+$list-group-disabled-color:         $gray-600;
+$list-group-action-color:           $gray-700;
+$list-group-action-active-bg:       $gray-200;
+
+// Image thumbnails
+
+$thumbnail-border-color:            $gray-300;
+$thumbnail-box-shadow:              0 1px 2px rgba($black, .075);
+
+// Figures
+
+$figure-caption-color:              $gray-600;
+
+// Breadcrumbs
+
+$breadcrumb-bg:                     $gray-200;
+$breadcrumb-divider-color:          $gray-600;
+$breadcrumb-active-color:           $gray-600;
+
+// Carousel
+
+$carousel-control-color:             $white;
+$carousel-indicator-active-bg:       $white;
+$carousel-caption-color:             $white;
+
+// Close
+
+$close-color:                       $black;
+$close-text-shadow:                 0 1px 0 $white;
+
+// Code
+
+$kbd-color:                         $white;
+$kbd-bg:                            $gray-900;
+$pre-color:                         $gray-900;
