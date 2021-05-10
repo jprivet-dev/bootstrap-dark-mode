@@ -1,53 +1,69 @@
 // Custom color
 
-$dodger-blue:           #399BFE;
-$french-sky-blue:       #8AB4F8;
-$sky-blue-crayola:      #78D9EC;
-$shiny-shamrock:        #62AF8C;
-$orange-yellow-crayola: #FDD663;
-$congo-pink:            #F28B82;
+// https://coolors.co/399bfe-6b97f2-9c93e5-ff8bcb-f28b82-f8b173-fdd663-62af8c-6dc4bc-78d9ec
+$dodger-blue:           #399bfe;
+$cornflower-blue:       #6B97F2;
+$maximum-blue-purple:   #9C93E5;
 $persian-pink:          #FF8BCB;
-$mauve:                 #D7AEFB;
+$congo-pink:            #F28B82;
+$mellow-apricot:        #F8B173;
+$orange-yellow-crayola: #FDD663;
+$shiny-shamrock:        #62AF8C;
+$medium-turquoise:      #6DC4BC;
+$sky-blue-crayola:      #78d9ec;
 
-$magnolia:              #EBEBF5;
-$magnolia-darken:       #E5E5EF;
-$lavender-web:          #DFDFE9;
-$gainsboro:             #D9D9E3;
-$lavender-grey:         #D2D2DC;
-$silver-metallic:       #A5A6AF;
-$sonic-silver:          #787982;
-$dim-grey:              #62636C;
-$davys-grey:            #4B4D55;
-$charcoal:              #40424A;
-$onyx:                  #34373E;
-$raisin-black-2:        #292C33;
-$raisin-black-1:        #23262D;
-$raisin-black:          #1D2027;
+// https://coolors.co/ebebf5-e5e5ef-dfdfe9-d9d9e3-d2d2dc-a5a6af-787982-62636c-4b4d55-78d9ec
+// https://coolors.co/d2d2dc-a5a6af-787982-62636c-4b4d55-40424a-34373e-292c33-23262d-373a40
+$magnolia:                #EBEBF5;
+$magnolia-darker:         #E5E5EF;
+$lavender-web:            #DFDFE9;
+$gainsboro:               #D9D9E3;
+$lavender-grey:           #D2D2DC;
+$silver-metallic:         #A5A6AF;
+$sonic-silver:            #787982;
+$dim-grey:                #62636C;
+$davys-grey:              #4B4D55;
+$charcoal:                #40424A;
+$onyx:                    #34373E;
+$raisin-black-lighter-2:  #292C33;
+$raisin-black-lighter-1:  #23262D;
+$raisin-black:            #1D2027;
 
 // Color system
 
-$white:    $magnolia; // 13
-$gray-100: $magnolia-darken; // 8
-$gray-200: $lavender-web; // 3
-$gray-300: $gainsboro; // 5
-$gray-400: $lavender-grey; // 13
-$gray-500: $silver-metallic; // 4
-$gray-600: $sonic-silver; // 2
-$gray-700: $dim-grey; // 2
-$gray-800: $davys-grey; // 8
-$gray-850: $charcoal; // 14
-$gray-900: $onyx; // 6
-$gray-950: $raisin-black-2; // 5
-$gray-975: $raisin-black-1; // 5
-$black:    $raisin-black; // 44
+$white:    $magnolia;
+$gray-100: $magnolia-darker;
+$gray-200: $lavender-web;
+$gray-300: $gainsboro;
+$gray-400: $lavender-grey;
+$gray-500: $silver-metallic;
+$gray-600: $sonic-silver;
+$gray-700: $dim-grey;
+$gray-800: $davys-grey;
+$gray-850: $charcoal;
+$gray-900: $onyx;
+$gray-950: $raisin-black-lighter-2;
+$gray-975: $raisin-black-lighter-1;
+$black:    $raisin-black;
 
-$primary:       $dodger-blue;
-$secondary:     $gray-700;
-$success:       $shiny-shamrock;
-$info:          $sky-blue-crayola;
-$warning:       $orange-yellow-crayola;
-$danger:        $congo-pink;
-$light:         $gray-100;
+$blue:    $dodger-blue;
+$indigo:  $cornflower-blue;
+$purple:  $maximum-blue-purple;
+$pink:    $persian-pink;
+$red:     $congo-pink;
+$orange:  $mellow-apricot;
+$yellow:  $orange-yellow-crayola;
+$green:   $shiny-shamrock;
+$teal:    $medium-turquoise;
+$cyan:    $sky-blue-crayola;
+
+//$primary:       $blue;
+//$secondary:     $gray-600;
+//$success:       $green;
+//$info:          $cyan;
+//$warning:       $yellow;
+//$danger:        $red;
+//$light:         $gray-100;
 $dark:          $gray-950;
 
 // Body
@@ -118,7 +134,7 @@ $nav-link-disabled-color:           $gray-400;
 $nav-tabs-border-color:             $gray-800;
 $nav-tabs-link-hover-border-color:  $gray-850 $gray-850 $nav-tabs-border-color;
 $nav-tabs-link-active-color:        $gray-300;
-$nav-tabs-link-active-bg:           $body-bg;
+$nav-tabs-link-active-bg:           $gray-975;
 $nav-tabs-link-active-border-color: $gray-800 $gray-800 $nav-tabs-link-active-bg;
 $nav-divider-color:                 $gray-850;
 
@@ -138,8 +154,8 @@ $navbar-light-toggler-border-color: rgba($black, .1);
 
 // Dropdowns
 
-$dropdown-bg:                       $black;
-$dropdown-border-color:             rgba($black, .15);
+$dropdown-bg:                       $gray-975;
+$dropdown-border-color:             rgba($white, .15);
 $dropdown-divider-bg:               $gray-850;
 $dropdown-box-shadow:               0 .5rem 1rem rgba($black, .175);
 $dropdown-link-color:               $gray-100;
@@ -164,7 +180,8 @@ $jumbotron-bg:                      $gray-975;
 
 // Cards
 
-$card-border-color:                 $gray-900;
+$card-border-color:                 rgba($white, .125);
+$card-cap-bg:                       rgba($gray-975, .2);
 $card-bg:                           $gray-975;
 
 // Tooltips
@@ -192,6 +209,12 @@ $modal-content-border-color:        rgba($black, .2);
 $modal-content-box-shadow-xs:       0 .25rem .5rem rgba($black, .5);
 $modal-content-box-shadow-sm-up:    0 .5rem 1rem rgba($black, .5);
 $modal-backdrop-bg:                 $black;
+
+// Alerts
+
+$alert-bg-level:                    -5;
+$alert-border-level:                -7;
+$alert-color-level:                 7;
 
 // Progress bars
 
