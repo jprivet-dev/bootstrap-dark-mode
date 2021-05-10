@@ -8,69 +8,81 @@ $orange-yellow-crayola: #FDD663;
 $congo-pink:            #F28B82;
 $persian-pink:          #FF8BCB;
 $mauve:                 #D7AEFB;
+
 $magnolia:              #EBEBF5;
-$cadet-blue-crayola:    #9BA6BC;
-$slate-gray:            #EBEBEB94;
-$sonic-silver:          #737680;
-$onyx:                  #33363F;
-$raisin-black-light:    #282A32;
+$magnolia-darken:       #E5E5EF;
+$lavender-web:          #DFDFE9;
+$gainsboro:             #D9D9E3;
+$lavender-grey:         #D2D2DC;
+$silver-metallic:       #A5A6AF;
+$sonic-silver:          #787982;
+$dim-grey:              #62636C;
+$davys-grey:            #4B4D55;
+$charcoal:              #40424A;
+$onyx:                  #34373E;
+$raisin-black-2:        #292C33;
+$raisin-black-1:        #23262D;
 $raisin-black:          #1D2027;
 
 // Color system
 
-$white:    #fff;
-$gray-100: #f8f9fa;
-$gray-200: #e9ecef;
-$gray-300: #dee2e6;
-$gray-400: #ced4da;
-$gray-500: #adb5bd;
-$gray-600: #6c757d;
-$gray-700: #495057;
-$gray-800: #343a40;
-$gray-900: #212529;
-$black:    #000;
+$white:    $magnolia; // 13
+$gray-100: $magnolia-darken; // 8
+$gray-200: $lavender-web; // 3
+$gray-300: $gainsboro; // 5
+$gray-400: $lavender-grey; // 13
+$gray-500: $silver-metallic; // 4
+$gray-600: $sonic-silver; // 2
+$gray-700: $dim-grey; // 2
+$gray-800: $davys-grey; // 8
+$gray-850: $charcoal; // 14
+$gray-900: $onyx; // 6
+$gray-950: $raisin-black-2; // 5
+$gray-975: $raisin-black-1; // 5
+$black:    $raisin-black; // 44
 
-//$primary:       $blue;
-//$secondary:     $gray-600;
-//$success:       $green;
-//$info:          $cyan;
-//$warning:       $yellow;
-//$danger:        $red;
-//$light:         $gray-100;
-//$dark:          $gray-800;
+$primary:       $dodger-blue;
+$secondary:     $gray-700;
+$success:       $shiny-shamrock;
+$info:          $sky-blue-crayola;
+$warning:       $orange-yellow-crayola;
+$danger:        $congo-pink;
+$light:         $gray-100;
+$dark:          $gray-950;
 
 // Body
 
-$body-bg:                   $white;
-$body-color:                $gray-900;
+$body-bg:                   $black;
+$body-color:                $white;
 
 // Components
 
-$border-color:                $gray-300;
+$border-color:                $gray-900;
 
 $box-shadow-sm:               0 .125rem .25rem rgba($black, .075);
 $box-shadow:                  0 .5rem 1rem rgba($black, .15);
 $box-shadow-lg:               0 1rem 3rem rgba($black, .175);
 
-$component-active-color:      $white;
+$component-active-color:      $black;
 
 // Typography
 
 // stylelint-enable value-keyword-case
 
 $text-muted:                  $gray-600;
-$blockquote-small-color:      $gray-600;
-$hr-border-color:             rgba($black, .1);
+$blockquote-small-color:      $gray-400;
+$hr-border-color:             $gray-900;
 $kbd-box-shadow:              inset 0 -.1rem 0 rgba($black, .25);
 
 // Tables
 
-$table-accent-bg:             rgba($black, .05);
-$table-hover-bg:              rgba($black, .075);
-$table-head-bg:               $gray-200;
-$table-head-color:            $gray-700;
-$table-dark-color:            $white;
-$table-dark-bg:               $gray-800;
+$table-color:                 $gray-300;
+$table-accent-bg:             rgba($white, .05);
+$table-hover-bg:              rgba($white, .075);
+$table-head-bg:               $gray-100;
+$table-head-color:            $gray-850;
+$table-dark-color:            $gray-200;
+$table-dark-bg:               $gray-850;
 $table-dark-accent-bg:        rgba($white, .05);
 $table-dark-hover-bg:         rgba($white, .075);
 
@@ -78,37 +90,37 @@ $table-dark-hover-bg:         rgba($white, .075);
 
 $btn-box-shadow:              inset 0 1px 0 rgba($white, .15), 0 1px 1px rgba($black, .075);
 $btn-active-box-shadow:       inset 0 3px 5px rgba($black, .125);
-$btn-link-disabled-color:     $gray-600;
+$btn-link-disabled-color:     $gray-400;
 
 // Forms
 
-$input-bg:                              $white;
-$input-disabled-bg:                     $gray-200;
-$input-color:                           $gray-700;
-$input-border-color:                    $gray-400;
+$input-bg:                              $gray-975;
+$input-disabled-bg:                     $gray-850;
+$input-color:                           $gray-300;
+$input-border-color:                    $gray-900;
 $input-box-shadow:                      inset 0 1px 1px rgba($black, .075);
-$input-placeholder-color:               $gray-600;
-$input-group-addon-bg:                  $gray-200;
+$input-placeholder-color:               $gray-400;
+$input-group-addon-bg:                  $gray-850;
 $custom-control-indicator-border-color: $gray-500;
-$custom-control-label-disabled-color:           $gray-600;
-$custom-select-disabled-color:      $gray-600;
-$custom-select-disabled-bg:         $gray-200;
-$custom-select-indicator-color:     $gray-800;
+$custom-control-label-disabled-color:   $gray-400;
+$custom-select-disabled-color:      $gray-400;
+$custom-select-disabled-bg:         $gray-850;
+$custom-select-indicator-color:     $gray-200;
 $custom-select-box-shadow:          inset 0 1px 2px rgba($black, .075);
-$custom-range-track-bg:             $gray-300;
+$custom-range-track-bg:             $gray-800;
 $custom-range-track-box-shadow:     inset 0 .25rem .25rem rgba($black, .1);
 $custom-range-thumb-box-shadow:              0 .1rem .25rem rgba($black, .1);
 $custom-range-thumb-disabled-bg:             $gray-500;
 
 // Navs
 
-$nav-link-disabled-color:           $gray-600;
-$nav-tabs-border-color:             $gray-300;
-$nav-tabs-link-hover-border-color:  $gray-200 $gray-200 $nav-tabs-border-color;
-$nav-tabs-link-active-color:        $gray-700;
+$nav-link-disabled-color:           $gray-400;
+$nav-tabs-border-color:             $gray-800;
+$nav-tabs-link-hover-border-color:  $gray-850 $gray-850 $nav-tabs-border-color;
+$nav-tabs-link-active-color:        $gray-300;
 $nav-tabs-link-active-bg:           $body-bg;
-$nav-tabs-link-active-border-color: $gray-300 $gray-300 $nav-tabs-link-active-bg;
-$nav-divider-color:                 $gray-200;
+$nav-tabs-link-active-border-color: $gray-800 $gray-800 $nav-tabs-link-active-bg;
+$nav-divider-color:                 $gray-850;
 
 // Navbar
 
@@ -126,56 +138,56 @@ $navbar-light-toggler-border-color: rgba($black, .1);
 
 // Dropdowns
 
-$dropdown-bg:                       $white;
+$dropdown-bg:                       $black;
 $dropdown-border-color:             rgba($black, .15);
-$dropdown-divider-bg:               $gray-200;
+$dropdown-divider-bg:               $gray-850;
 $dropdown-box-shadow:               0 .5rem 1rem rgba($black, .175);
-$dropdown-link-color:               $gray-900;
-$dropdown-link-hover-color:         darken($gray-900, 5%);
-$dropdown-link-hover-bg:            $gray-200;
+$dropdown-link-color:               $gray-100;
+$dropdown-link-hover-color:         darken($gray-100, 5%);
+$dropdown-link-hover-bg:            $gray-850;
 $dropdown-link-disabled-color:      $gray-500;
-$dropdown-header-color:             $gray-600;
+$dropdown-header-color:             $gray-400;
 
 // Pagination
 
-$pagination-bg:                     $white;
-$pagination-border-color:           $gray-300;
-$pagination-hover-bg:               $gray-200;
-$pagination-hover-border-color:     $gray-300;
-$pagination-disabled-color:         $gray-600;
-$pagination-disabled-bg:            $white;
-$pagination-disabled-border-color:  $gray-300;
+$pagination-bg:                     $gray-950;
+$pagination-border-color:           $gray-900;
+$pagination-hover-bg:               $gray-100;
+$pagination-hover-border-color:     $gray-800;
+$pagination-disabled-color:         $gray-800;
+$pagination-disabled-bg:            $gray-975;
+$pagination-disabled-border-color:  $gray-950;
 
 // Jumbotron
 
-$jumbotron-bg:                      $gray-200;
+$jumbotron-bg:                      $gray-975;
 
 // Cards
 
-$card-border-color:                 rgba($black, .125);
-$card-bg:                           $white;
+$card-border-color:                 $gray-900;
+$card-bg:                           $gray-975;
 
 // Tooltips
 
-$tooltip-color:                     $white;
+$tooltip-color:                     $black;
 $tooltip-bg:                        $black;
 
 // Popovers
 
-$popover-bg:                        $white;
+$popover-bg:                        $black;
 $popover-border-color:              rgba($black, .2);
 $popover-box-shadow:                0 .25rem .5rem rgba($black, .2);
 
 // Toasts
 
-$toast-background-color:            rgba($white, .85);
+$toast-background-color:            rgba($black, .85);
 $toast-box-shadow:                  0 .25rem .75rem rgba($black, .1);
-$toast-header-color:                $gray-600;
-$toast-header-background-color:     rgba($white, .85);
+$toast-header-color:                $gray-400;
+$toast-header-background-color:     rgba($black, .85);
 
 // Modals
 
-$modal-content-bg:                  $white;
+$modal-content-bg:                  $black;
 $modal-content-border-color:        rgba($black, .2);
 $modal-content-box-shadow-xs:       0 .25rem .5rem rgba($black, .5);
 $modal-content-box-shadow-sm-up:    0 .5rem 1rem rgba($black, .5);
@@ -183,47 +195,47 @@ $modal-backdrop-bg:                 $black;
 
 // Progress bars
 
-$progress-bg:                       $gray-200;
+$progress-bg:                       $gray-850;
 $progress-box-shadow:               inset 0 .1rem .1rem rgba($black, .1);
-$progress-bar-color:                $white;
+$progress-bar-color:                $black;
 
 // List group
 
-$list-group-bg:                     $white;
-$list-group-border-color:           rgba($black, .125);
-$list-group-hover-bg:               $gray-100;
-$list-group-disabled-color:         $gray-600;
-$list-group-action-color:           $gray-700;
-$list-group-action-active-bg:       $gray-200;
+$list-group-bg:                     $black;
+$list-group-border-color:           rgba($white, .125);
+$list-group-hover-bg:               $gray-950;
+$list-group-disabled-color:         $gray-400;
+$list-group-action-color:           $gray-300;
+$list-group-action-active-bg:       $gray-850;
 
 // Image thumbnails
 
-$thumbnail-border-color:            $gray-300;
+$thumbnail-border-color:            $gray-800;
 $thumbnail-box-shadow:              0 1px 2px rgba($black, .075);
 
 // Figures
 
-$figure-caption-color:              $gray-600;
+$figure-caption-color:              $gray-400;
 
 // Breadcrumbs
 
-$breadcrumb-bg:                     $gray-200;
-$breadcrumb-divider-color:          $gray-600;
-$breadcrumb-active-color:           $gray-600;
+$breadcrumb-bg:                     $gray-850;
+$breadcrumb-divider-color:          $gray-400;
+$breadcrumb-active-color:           $gray-400;
 
 // Carousel
 
-$carousel-control-color:             $white;
-$carousel-indicator-active-bg:       $white;
-$carousel-caption-color:             $white;
+$carousel-control-color:             $black;
+$carousel-indicator-active-bg:       $black;
+$carousel-caption-color:             $black;
 
 // Close
 
 $close-color:                       $black;
-$close-text-shadow:                 0 1px 0 $white;
+$close-text-shadow:                 0 1px 0 $black;
 
 // Code
 
-$kbd-color:                         $white;
-$kbd-bg:                            $gray-900;
-$pre-color:                         $gray-900;
+$kbd-color:                         $black;
+$kbd-bg:                            $gray-100;
+$pre-color:                         $gray-100;
