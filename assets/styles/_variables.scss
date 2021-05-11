@@ -1,0 +1,264 @@
+// Custom color
+
+// https://coolors.co/399bfe-6b97f2-9c93e5-ff8bcb-f28b82-f8b173-fdd663-62af8c-6dc4bc-78d9ec
+$dodger-blue:           #399BFE;
+$cornflower-blue:       #6B97F2;
+$maximum-blue-purple:   #9C93E5;
+$persian-pink:          #FF8BCB;
+$congo-pink:            #F28B82;
+$mellow-apricot:        #F8B173;
+$orange-yellow-crayola: #FDD663;
+$shiny-shamrock:        #62AF8C;
+$medium-turquoise:      #6DC4BC;
+$sky-blue-crayola:      #78d9ec;
+
+// https://coolors.co/ebebf5-e5e5ef-dfdfe9-d9d9e3-d2d2dc-a5a6af-787982-62636c-4b4d55-78d9ec
+// https://coolors.co/d2d2dc-a5a6af-787982-62636c-4b4d55-40424a-34373e-292c33-23262d-373a40
+$magnolia:                #EBEBF5;
+$magnolia-darker:         #E5E5EF;
+$lavender-web:            #DFDFE9;
+$gainsboro:               #D9D9E3;
+$lavender-grey:           #D2D2DC;
+$silver-metallic:         #A5A6AF;
+$sonic-silver:            #787982;
+$dim-grey:                #62636C;
+$davys-grey:              #4B4D55;
+$charcoal:                #40424A;
+$onyx:                    #34373E;
+$raisin-black-lighter-2:  #292C33;
+$raisin-black-lighter-1:  #23262D;
+$raisin-black:            #1D2027;
+
+// Color system
+
+$white:    $magnolia;
+$gray-100: $magnolia-darker;
+$gray-200: $lavender-web;
+$gray-300: $gainsboro;
+$gray-400: $lavender-grey;
+$gray-500: $silver-metallic;
+$gray-600: $sonic-silver;
+$gray-700: $dim-grey;
+$gray-800: $davys-grey;
+$gray-850: $charcoal;
+$gray-900: $onyx;
+$gray-950: $raisin-black-lighter-2;
+$gray-975: $raisin-black-lighter-1;
+$black:    $raisin-black;
+
+$blue:    $dodger-blue;
+$indigo:  $cornflower-blue;
+$purple:  $maximum-blue-purple;
+$pink:    $persian-pink;
+$red:     $congo-pink;
+$orange:  $mellow-apricot;
+$yellow:  $orange-yellow-crayola;
+$green:   $shiny-shamrock;
+$teal:    $medium-turquoise;
+$cyan:    $sky-blue-crayola;
+
+//$primary:       $blue;
+//$secondary:     $gray-600;
+//$success:       $green;
+//$info:          $cyan;
+//$warning:       $yellow;
+//$danger:        $red;
+//$light:         $gray-100;
+$dark:          $gray-950;
+
+// Body
+
+$body-bg:                   $black;
+$body-color:                $white;
+
+// Components
+
+$border-color:                $gray-900;
+
+$box-shadow-sm:               0 .125rem .25rem rgba($black, .075);
+$box-shadow:                  0 .5rem 1rem rgba($black, .15);
+$box-shadow-lg:               0 1rem 3rem rgba($black, .175);
+
+$component-active-color:      $black;
+
+// Typography
+
+// stylelint-enable value-keyword-case
+
+$text-muted:                  $gray-600;
+$blockquote-small-color:      $gray-400;
+$hr-border-color:             $gray-900;
+$kbd-box-shadow:              inset 0 -.1rem 0 rgba($black, .25);
+
+// Tables
+
+$table-color:                 $gray-300;
+$table-accent-bg:             rgba($white, .05);
+$table-hover-bg:              rgba($white, .075);
+$table-head-bg:               $gray-100;
+$table-head-color:            $gray-850;
+$table-dark-color:            $gray-200;
+$table-dark-bg:               $gray-850;
+$table-dark-accent-bg:        rgba($white, .05);
+$table-dark-hover-bg:         rgba($white, .075);
+
+// Buttons
+
+$btn-box-shadow:              inset 0 1px 0 rgba($white, .15), 0 1px 1px rgba($black, .075);
+$btn-active-box-shadow:       inset 0 3px 5px rgba($black, .125);
+$btn-link-disabled-color:     $gray-400;
+
+// Forms
+
+$input-bg:                              $gray-975;
+$input-disabled-bg:                     $gray-850;
+$input-color:                           $gray-300;
+$input-border-color:                    $gray-900;
+$input-box-shadow:                      inset 0 1px 1px rgba($black, .075);
+$input-placeholder-color:               $gray-400;
+$input-group-addon-bg:                  $gray-850;
+$custom-control-indicator-border-color: $gray-500;
+$custom-control-label-disabled-color:   $gray-400;
+$custom-select-disabled-color:      $gray-400;
+$custom-select-disabled-bg:         $gray-850;
+$custom-select-indicator-color:     $gray-200;
+$custom-select-box-shadow:          inset 0 1px 2px rgba($black, .075);
+$custom-range-track-bg:             $gray-800;
+$custom-range-track-box-shadow:     inset 0 .25rem .25rem rgba($black, .1);
+$custom-range-thumb-box-shadow:              0 .1rem .25rem rgba($black, .1);
+$custom-range-thumb-disabled-bg:             $gray-500;
+
+// Navs
+
+$nav-link-disabled-color:           $gray-400;
+$nav-tabs-border-color:             $gray-800;
+$nav-tabs-link-hover-border-color:  $gray-850 $gray-850 $nav-tabs-border-color;
+$nav-tabs-link-active-color:        $gray-300;
+$nav-tabs-link-active-bg:           $gray-975;
+$nav-tabs-link-active-border-color: $gray-800 $gray-800 $nav-tabs-link-active-bg;
+$nav-divider-color:                 $gray-850;
+
+// Navbar
+
+$navbar-dark-color:                 rgba($white, .5);
+$navbar-dark-hover-color:           rgba($white, .75);
+$navbar-dark-active-color:          $white;
+$navbar-dark-disabled-color:        rgba($white, .25);
+$navbar-dark-toggler-border-color:  rgba($white, .1);
+
+$navbar-light-color:                rgba($black, .5);
+$navbar-light-hover-color:          rgba($black, .7);
+$navbar-light-active-color:         rgba($black, .9);
+$navbar-light-disabled-color:       rgba($black, .3);
+$navbar-light-toggler-border-color: rgba($black, .1);
+
+// Dropdowns
+
+$dropdown-bg:                       $gray-975;
+$dropdown-border-color:             rgba($white, .15);
+$dropdown-divider-bg:               $gray-850;
+$dropdown-box-shadow:               0 .5rem 1rem rgba($black, .175);
+$dropdown-link-color:               $gray-100;
+$dropdown-link-hover-color:         darken($gray-100, 5%);
+$dropdown-link-hover-bg:            $gray-850;
+$dropdown-link-disabled-color:      $gray-500;
+$dropdown-header-color:             $gray-400;
+
+// Pagination
+
+$pagination-bg:                     $gray-950;
+$pagination-border-color:           $gray-900;
+$pagination-hover-bg:               $gray-100;
+$pagination-hover-border-color:     $gray-800;
+$pagination-disabled-color:         $gray-800;
+$pagination-disabled-bg:            $gray-975;
+$pagination-disabled-border-color:  $gray-950;
+
+// Jumbotron
+
+$jumbotron-bg:                      $gray-975;
+
+// Cards
+
+$card-border-color:                 rgba($white, .125);
+$card-cap-bg:                       rgba($gray-975, .2);
+$card-bg:                           $gray-975;
+
+// Tooltips
+
+$tooltip-color:                     $white;
+$tooltip-bg:                        $gray-950;
+
+// Popovers
+
+$popover-bg:                        $black;
+$popover-border-color:              rgba($black, .2);
+$popover-box-shadow:                0 .25rem .5rem rgba($black, .2);
+
+// Toasts
+
+$toast-background-color:            rgba($black, .85);
+$toast-box-shadow:                  0 .25rem .75rem rgba($black, .1);
+$toast-header-color:                $gray-400;
+$toast-header-background-color:     rgba($black, .85);
+
+// Modals
+
+$modal-content-bg:                  $black;
+$modal-content-border-color:        rgba($black, .2);
+$modal-content-box-shadow-xs:       0 .25rem .5rem rgba($black, .5);
+$modal-content-box-shadow-sm-up:    0 .5rem 1rem rgba($black, .5);
+$modal-backdrop-bg:                 $black;
+
+// Alerts
+
+$alert-bg-level:                    -5;
+$alert-border-level:                -7;
+$alert-color-level:                 7;
+
+// Progress bars
+
+$progress-bg:                       $gray-850;
+$progress-box-shadow:               inset 0 .1rem .1rem rgba($black, .1);
+$progress-bar-color:                $black;
+
+// List group
+
+$list-group-bg:                     $black;
+$list-group-border-color:           rgba($white, .125);
+$list-group-hover-bg:               $gray-950;
+$list-group-disabled-color:         $gray-400;
+$list-group-action-color:           $gray-300;
+$list-group-action-active-bg:       $gray-850;
+
+// Image thumbnails
+
+$thumbnail-border-color:            $gray-800;
+$thumbnail-box-shadow:              0 1px 2px rgba($black, .075);
+
+// Figures
+
+$figure-caption-color:              $gray-400;
+
+// Breadcrumbs
+
+$breadcrumb-bg:                     $gray-850;
+$breadcrumb-divider-color:          $gray-400;
+$breadcrumb-active-color:           $gray-400;
+
+// Carousel
+
+$carousel-control-color:             $black;
+$carousel-indicator-active-bg:       $black;
+$carousel-caption-color:             $black;
+
+// Close
+
+$close-color:                       $black;
+$close-text-shadow:                 0 1px 0 $black;
+
+// Code
+
+$kbd-color:                         $black;
+$kbd-bg:                            $gray-100;
+$pre-color:                         $gray-100;
