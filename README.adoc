@@ -1,0 +1,66 @@
+// settings:
+:toc: macro
+:toc-title: Sommaire
+:toclevels: 2
+:numbered:
+:sectnumlevels: 2
+
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+:status:
+:outfilesuffix: .adoc
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+
+// variables:
+
+:project: bootstrap-dark-mode
+:uri-org: https://github.com/jprivet-dev
+:uri-repo: {uri-org}/{project}
+
+:uri-rel-file-base: link:
+:uri-rel-tree-base: link:
+ifdef::env-site,env-yard[]
+:uri-rel-file-base: {uri-repo}/blob/master/
+:uri-rel-tree-base: {uri-repo}/tree/master/
+endif::[]
+
+:uri-license: {uri-rel-file-base}LICENSE
+
+:BACK_TO_TOP_TARGET: top-target
+:BACK_TO_TOP_LABEL: ⬆ Retour au sommaire
+:BACK_TO_TOP: <<{BACK_TO_TOP_TARGET},{BACK_TO_TOP_LABEL}>>
+
+[#{BACK_TO_TOP_TARGET}]
+= Bootstrap 4.6 - Dark Mode (v4.6.0-beta.0)
+
+toc::[]
+
+== Presentation
+
+Create your own Bootstrap dark mode by changing only variables.
+
+{BACK_TO_TOP}
+
+== Quick start
+
+* Clone the repo: `git clone {uri-repo}`
+* Go in the project: `cd {project}`
+* Install with https://www.npmjs.com/[npm]: `npm install`
+* Start the server: `npm run dev-server`
+* Go on http://localhost:8080/
+
+{BACK_TO_TOP}
+
+== License
+
+{uri-repo} is released under the {uri-license}[licence MIT].
+
+'''
+
+{BACK_TO_TOP}
+

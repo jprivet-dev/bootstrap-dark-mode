@@ -1,0 +1,40 @@
+{
+  "name": "bootstrap-themes",
+  "version": "1.0.0-beta.0",
+  "description": "How to customize Bootstrap and create your own theme",
+  "main": "index.html",
+  "scripts": {
+    "dev-server": "encore dev-server",
+    "dev": "encore dev",
+    "watch": "encore dev --watch",
+    "build": "encore production --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jprivet-dev/bootstrap-themes.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "themes",
+    "scss"
+  ],
+  "author": "jprivet-dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jprivet-dev/bootstrap-themes/issues"
+  },
+  "homepage": "https://github.com/jprivet-dev/bootstrap-themes#readme",
+  "devDependencies": {
+    "@symfony/webpack-encore": "^1.2.0",
+    "bootstrap": "^4.6.0",
+    "core-js": "^3.12.1",
+    "file-loader": "^6.2.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "sass": "^1.32.12",
+    "sass-loader": "^11.1.0",
+    "webpack-notifier": "^1.13.0"
+  },
+  "dependencies": {}
+}
