@@ -35,7 +35,7 @@ endif::[]
 :BACK_TO_TOP: <<{BACK_TO_TOP_TARGET},{BACK_TO_TOP_LABEL}>>
 
 [#{BACK_TO_TOP_TARGET}]
-= Bootstrap 4.6 - Dark Mode (v4.6.0-beta.0)
+= Bootstrap 4.6 - Dark Mode
 
 toc::[]
 
