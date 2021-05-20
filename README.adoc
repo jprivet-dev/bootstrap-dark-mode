@@ -91,20 +91,23 @@ Then, use your main Sass file to import your custom variables, followed by Boots
 
 === The colors of this dark mode version
 
-The colors were inspired by the different interfaces I could find on Pinterest: https://www.pinterest.fr/jeanphilipperivet/ui-dark-version/
+Find all the colors used in {uri-rel-file-base}assets/styles/app.scss[].
 
-https://coolors.co/399bfe-6b97f2-9c93e5-ff8bcb-f28b82-f8b173-fdd663-62af8c-6dc4bc-78d9ec:
+TIP: The colors were inspired by the different interfaces I could find on Pinterest: https://www.pinterest.fr/jeanphilipperivet/ui-dark-version/
+
+Main colors (https://coolors.co/399bfe-6b97f2-9c93e5-ff8bcb-f28b82-f8b173-fdd663-62af8c-6dc4bc-78d9ec[see on coolors.co]):
 
 image::src/docs/img/main-colors.png[]
 
-https://coolors.co/ebebf5-e5e5ef-dfdfe9-d9d9e3-d2d2dc-a5a6af-787982-62636c:
+Shades of grey 1 (https://coolors.co/ebebf5-e5e5ef-dfdfe9-d9d9e3-d2d2dc-a5a6af-787982-62636c[see on coolors.co]):
 
 image::src/docs/img/shades-of-grey-1.png[]
 
-https://coolors.co/787982-62636c-4b4d55-40424a-34373e-292c33-23262d-1d2027:
+Shades of grey 2 (https://coolors.co/787982-62636c-4b4d55-40424a-34373e-292c33-23262d-1d2027[see on coolors.co]):
 
 image::src/docs/img/shades-of-grey-2.png[]
 
+Voilà ! All you have to do is vary the colors 😃
 
 {BACK_TO_TOP}
 
