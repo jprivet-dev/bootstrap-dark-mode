@@ -17,5 +17,7 @@ require('popper.js');
 require('bootstrap');
 
 import './js/tooltips';
+import './js/popovers';
+import './js/toasts';
 
 console.log('Hello Webpack Encore! Edit me in assets/app.js');

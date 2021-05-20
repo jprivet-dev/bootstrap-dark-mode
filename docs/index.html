@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="favicon.ico" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="v4/app.css">
-
 
     <style>
         .nav-link {
@@ -21,8 +22,8 @@
     <title>Bootstrap - Dark Mode</title>
 </head>
 <body>
-<div class="container">
-    <header class="d-flex flex-column flex-md-row align-items-md-center p-5">
+<header class="jumbotron d-flex flex-column flex-md-row align-items-md-center p-5">
+    <div class="container">
         <div class="pt-md-3 pb-md-4">
             <h1 class="bd-title mt-0">Bootstrap - Dark Mode</h1>
             <p>
@@ -34,24 +35,26 @@
                 </a>
             </nav>
         </div>
-    </header>
-    <main id="content" role="main">
+    </div>
+</header>
+<main id="content" role="main">
+    <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col-md-6">
                 <a class="nav-link rounded p-5" href="v4/index.html">
                     <img class="d-block img-fluid mx-auto" src="v4/examples/index/bootstrap-logo-v4.svg" alt="Bootstrap" width="204" height="204">
-                    <h2 class="mt-3 text-center">Bootstrap 4.6 <br> <small>Dark Mode v4.6.0-beta.0</small></h2>
+                    <h2 class="mt-3 text-center">Bootstrap 4.6</h2>
                 </a>
             </div>
-            <div class="col">
+            <div class="col-md-6">
                 <a class="nav-link rounded p-5 disabled" href="#" tabindex="-1" aria-disabled="true">
                     <img class="d-block img-fluid mx-auto" src="v4/examples/index/bootstrap-logo-v5.svg" alt="Bootstrap" width="256" height="204">
                     <h2 class="mt-3 text-center">Bootstrap 5.x <br> <small>coming soon</small></h2>
                 </a>
             </div>
         </div>
-    </main>
-</div>
+    </div>
+</main>
 <script src="v4/app.js"></script>
 </body>
 </html>
