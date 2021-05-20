@@ -45,7 +45,7 @@ Create your own Bootstrap dark mode *by changing only variables*.
 
 See the result on https://jprivet-dev.github.io/bootstrap-dark-mode/:
 
-image::src/docs/img/all-examples.png[]
+image::src/docs/img/bootstrap-dark-mode-preview.jpg[]
 
 {BACK_TO_TOP}
 
@@ -90,7 +90,7 @@ Then, use your main Sass file to import your custom variables, followed by Boots
 
 === The colors of this dark mode version
 
-Find all the colors used in {uri-rel-file-base}assets/styles/app.scss[].
+Find all the colors used in {uri-rel-file-base}assets/styles/_variables.scss[].
 
 TIP: The colors were inspired by the different interfaces I could find on Pinterest: https://www.pinterest.fr/jeanphilipperivet/ui-dark-version/
 
