@@ -10,10 +10,10 @@ $mellow-apricot:        #F8B173;
 $orange-yellow-crayola: #FDD663;
 $shiny-shamrock:        #62AF8C;
 $medium-turquoise:      #6DC4BC;
-$sky-blue-crayola:      #78d9ec;
+$sky-blue-crayola:      #78D9EC;
 
-// https://coolors.co/ebebf5-e5e5ef-dfdfe9-d9d9e3-d2d2dc-a5a6af-787982-62636c-4b4d55-78d9ec
-// https://coolors.co/d2d2dc-a5a6af-787982-62636c-4b4d55-40424a-34373e-292c33-23262d-373a40
+// https://coolors.co/ebebf5-e5e5ef-dfdfe9-d9d9e3-d2d2dc-a5a6af-787982-62636c
+// https://coolors.co/787982-62636c-4b4d55-40424a-34373e-292c33-23262d-1d2027
 $magnolia:                #EBEBF5;
 $magnolia-darker:         #E5E5EF;
 $lavender-web:            #DFDFE9;
@@ -22,7 +22,7 @@ $lavender-grey:           #D2D2DC;
 $silver-metallic:         #A5A6AF;
 $sonic-silver:            #787982;
 $dim-grey:                #62636C;
-$davys-grey:              #4B4D55;
+$davys-grey:              #4b4d55;
 $charcoal:                #40424A;
 $onyx:                    #34373E;
 $raisin-black-lighter-2:  #292C33;
@@ -66,6 +66,11 @@ $cyan:    $sky-blue-crayola;
 //$light:         $gray-100;
 $dark:          $gray-950;
 
+// Options
+
+// See https://getbootstrap.com/docs/4.6/content/typography/#responsive-font-sizes
+$enable-responsive-font-sizes: true;
+
 // Body
 
 $body-bg:                   $black;
@@ -82,8 +87,6 @@ $box-shadow-lg:               0 1rem 3rem rgba($black, .175);
 $component-active-color:      $black;
 
 // Typography
-
-// stylelint-enable value-keyword-case
 
 $text-muted:                  $gray-600;
 $blockquote-small-color:      $gray-400;
@@ -134,7 +137,7 @@ $nav-link-disabled-color:           $gray-400;
 $nav-tabs-border-color:             $gray-800;
 $nav-tabs-link-hover-border-color:  $gray-850 $gray-850 $nav-tabs-border-color;
 $nav-tabs-link-active-color:        $gray-300;
-$nav-tabs-link-active-bg:           $gray-975;
+$nav-tabs-link-active-bg:           $black;
 $nav-tabs-link-active-border-color: $gray-800 $gray-800 $nav-tabs-link-active-bg;
 $nav-divider-color:                 $gray-850;
 
@@ -181,8 +184,8 @@ $jumbotron-bg:                      $gray-975;
 // Cards
 
 $card-border-color:                 rgba($white, .125);
-$card-cap-bg:                       rgba($gray-975, .2);
-$card-bg:                           $gray-975;
+$card-cap-bg:                       rgba($gray-800, .2);
+$card-bg:                           $black;
 
 // Tooltips
 
@@ -191,21 +194,25 @@ $tooltip-bg:                        $gray-950;
 
 // Popovers
 
-$popover-bg:                        $black;
-$popover-border-color:              rgba($black, .2);
+$popover-bg:                        $gray-975;
+$popover-border-color:              rgba($white, .2);
 $popover-box-shadow:                0 .25rem .5rem rgba($black, .2);
+$popover-header-bg:                 darken($popover-bg, 3%);
+
 
 // Toasts
 
 $toast-background-color:            rgba($black, .85);
+$toast-border-color:                rgba($white, .1);
 $toast-box-shadow:                  0 .25rem .75rem rgba($black, .1);
 $toast-header-color:                $gray-400;
 $toast-header-background-color:     rgba($black, .85);
+$toast-header-border-color:         rgba($white, .1);
 
 // Modals
 
 $modal-content-bg:                  $black;
-$modal-content-border-color:        rgba($black, .2);
+$modal-content-border-color:        rgba($white, .2);
 $modal-content-box-shadow-xs:       0 .25rem .5rem rgba($black, .5);
 $modal-content-box-shadow-sm-up:    0 .5rem 1rem rgba($black, .5);
 $modal-backdrop-bg:                 $black;
@@ -254,7 +261,7 @@ $carousel-caption-color:             $black;
 
 // Close
 
-$close-color:                       $black;
+$close-color:                       $white;
 $close-text-shadow:                 0 1px 0 $black;
 
 // Code
