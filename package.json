@@ -1,6 +1,6 @@
 {
-  "name": "bootstrap-themes",
-  "version": "1.0.0",
+  "name": "bootstrap-dark-mode",
+  "version": "1.1.0",
   "description": "How to customize Bootstrap and create your own theme",
   "main": "index.html",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jprivet-dev/bootstrap-themes.git"
+    "url": "git+https://github.com/jprivet-dev/bootstrap-dark-mode.git"
   },
   "keywords": [
     "bootstrap",
@@ -22,9 +22,9 @@
   "author": "jprivet-dev",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jprivet-dev/bootstrap-themes/issues"
+    "url": "https://github.com/jprivet-dev/bootstrap-dark-mode/issues"
   },
-  "homepage": "https://github.com/jprivet-dev/bootstrap-themes#readme",
+  "homepage": "https://github.com/jprivet-dev/bootstrap-dark-mode#readme",
   "devDependencies": {
     "@symfony/webpack-encore": "^1.2.0",
     "bootstrap": "^4.6.0",
