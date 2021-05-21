@@ -99,7 +99,7 @@ Then, use your main Sass file to import your custom variables, followed by Boots
 
 === Can I use the variables of this repo directly in my existing project?
 
-Yes 🎉
+Yeees 🎉
 
 If your own project is able to compile SCSS files, you can copy/past in your project all variables from the file {uri-rel-file-base}assets/styles/_variables.scss[].
 
