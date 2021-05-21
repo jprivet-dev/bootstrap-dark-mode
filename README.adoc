@@ -68,9 +68,18 @@ in your own Sass without modifying Bootstrap’s source code (https://getbootstr
 
 See the file on https://github.com/twbs/bootstrap/blob/v4.6.0/scss/_variables.scss.
 
+[TIP]
+====
+Sass provides the `!default` flag.
+This assigns a value to a variable *only if that variable isn’t defined or its value is null*.
+Otherwise, the existing value will be used.
+
+More information on https://sass-lang.com/documentation/variables#default-values.
+====
+
 {BACK_TO_TOP}
 
-=== Your own variables
+=== Import your own variables
 
 This project imports the precompiled Sass with https://symfony.com/doc/current/frontend.html#webpack-encore[Webpack Encore]:
 
@@ -88,11 +97,19 @@ Then, use your main Sass file to import your custom variables, followed by Boots
 
 {BACK_TO_TOP}
 
+=== Can I use the variables of this repo directly in my existing project?
+
+Yeees 🎉
+
+If your own project is able to compile SCSS files, you can copy/past in your project all variables from the file {uri-rel-file-base}assets/styles/_variables.scss[].
+
+{BACK_TO_TOP}
+
 === The colors of this dark mode version
 
 Find all the colors used in {uri-rel-file-base}assets/styles/_variables.scss[].
 
-TIP: The colors were inspired by the different interfaces I could find on Pinterest: https://www.pinterest.fr/jeanphilipperivet/ui-dark-version/
+TIP: The colors were inspired by the different interfaces I could find on Pinterest: https://www.pinterest.fr/jeanphilipperivet/ui-dark-mode/
 
 Main colors (https://coolors.co/399bfe-6b97f2-9c93e5-ff8bcb-f28b82-f8b173-fdd663-62af8c-6dc4bc-78d9ec[see on coolors.co]):
 
