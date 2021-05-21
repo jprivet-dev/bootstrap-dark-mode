@@ -109,7 +109,7 @@ If your own project is able to compile SCSS files, you can copy/past in your pro
 
 Find all the colors used in {uri-rel-file-base}assets/styles/_variables.scss[].
 
-TIP: The colors were inspired by the different interfaces I could find on Pinterest: https://www.pinterest.fr/jeanphilipperivet/ui-dark-version/
+TIP: The colors were inspired by the different interfaces I could find on Pinterest: https://www.pinterest.fr/jeanphilipperivet/ui-dark-mode/
 
 Main colors (https://coolors.co/399bfe-6b97f2-9c93e5-ff8bcb-f28b82-f8b173-fdd663-62af8c-6dc4bc-78d9ec[see on coolors.co]):
 
